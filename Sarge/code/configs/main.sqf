@@ -20,9 +20,9 @@
 SAR_useBlacklist = false; // Only works for Altis Exile, Namalsk Exile and Tanoa Exile currently. Do not use for non Exile servers!
 
 /* Debug Settings */
-SAR_DEBUG 			= true; // Set to true for RPT info on AI
-SAR_EXTREME_DEBUG 	= true; // Set to true for RPT info on damn near everything
-SAR_HITKILL_DEBUG 	= true; // Set to true for RPT info on AI shooting and killing
+SAR_DEBUG 			= false; // Set to true for RPT info on AI
+SAR_EXTREME_DEBUG 	= false; // Set to true for RPT info on damn near everything
+SAR_HITKILL_DEBUG 	= false; // Set to true for RPT info on AI shooting and killing
 SAR_log_AI_kills 	= false; // Set to true for kill logging by variable. ! IN DEVELOPMENT !
 SAR_KILL_MSG 		= true; // Set to true for announcing AI kills to the server ! IN DEVELOPMENT !
 
@@ -32,9 +32,9 @@ SAR_static_spawning					= false;	// DO NOT ENABLE THIS FEATURE!
 SAR_Base_Gaurds 					= false;	// DO NOT ENABLE THIS FEATURE!
 SAR_anim_heli						= true;		// DO NOT ENABLE THIS FEATURE!
 SAR_dynamic_group_respawn 			= true;		// Turn dynamic grid AI respawn on or off
-SAR_dynamic_heli_respawn 			= false;		// Turn dynamic grid AI respawn on or off
-SAR_AI_COMBAT_VEHICLE 				= false;	// AI will steal a vehicle while in combat.
-SAR_AI_STEAL_VEHICLE 				= false;	// AI will steal any vehicle to reach target location.
+SAR_dynamic_heli_respawn 			= true;		// Turn dynamic grid AI respawn on or off
+SAR_AI_COMBAT_VEHICLE 				= true;	// AI will steal a vehicle while in combat.
+SAR_AI_STEAL_VEHICLE 				= true;	// AI will steal any vehicle to reach target location.
 SAR_AI_disable_UPSMON_AI			= false; 	// Turn off UPSMON scripts for all AI ! May cause AI to act in unexpected ways !
 SAR_respawn_waittime 				= 300;		// How long to wait before dynamic AI respawns
 SAR_DESPAWN_TIMEOUT 				= 120;		// How long to wait before despawning dynamic AI
